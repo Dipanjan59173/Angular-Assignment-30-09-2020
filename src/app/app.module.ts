@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { WeightListComponent } from './health/weight-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WeightListComponent
   ],
   imports: [
     BrowserModule
